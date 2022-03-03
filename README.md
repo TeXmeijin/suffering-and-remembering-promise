@@ -4,8 +4,6 @@
 
 https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Promise
 
-`src`以下のソースコードを、ナンバリングされている順に実行しながら理解を深めてください。
-
 本リポジトリにはソースコードのみを掲載し、解説などは別途教材やブログ記事として執筆予定です。
 
 ## Target
@@ -21,3 +19,16 @@ https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Pr
 yarn
 yarn ts <実行したいソースコードのパス>
 ```
+
+## How to Use
+
+`src`以下のソースコードを、ナンバリングされている順に実行しながら理解を深めてください。
+
+- 実行結果を見て、どうしてそうなっているか？を説明できるようになってから次に進むこと
+- ナンバリングされている各フォルダ内では、順番は前後しても構いません。ですが、よりシンプルなものから進めるのが良いと思われます
+
+## Reference
+
+- https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Promise
+- https://ja.javascript.info/
+- https://azu.github.io/promises-book/
