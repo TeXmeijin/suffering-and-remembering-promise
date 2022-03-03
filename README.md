@@ -56,3 +56,8 @@ yarn ts <実行したいソースコードのパス>
 - https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Promise
 - https://ja.javascript.info/
 - https://azu.github.io/promises-book/
+
+## Thanks
+
+本教材のコンセプトは「苦しんで覚えるC言語」という書籍を模倣しています。学生時代に非常にお世話になった素晴らしいプログラミング本です。
+https://www.shuwasystem.co.jp/book/9784798030142.html
