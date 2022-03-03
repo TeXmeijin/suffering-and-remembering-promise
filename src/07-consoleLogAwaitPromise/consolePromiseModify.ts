@@ -1,10 +1,10 @@
 import axios from 'axios';
 
 (async () => {
-  const promise = axios
+  const getPersonPromise = axios
     .get<{ name: string }>('https://swapi.dev/api/people/1')
     .then((res) => res.data.name);
-  console.log(promise);
-  console.log(await promise);
-  console.log(promise);
+  console.log(getPersonPromise);
+  console.log(await getPersonPromise);
+  console.log(getPersonPromise);
 })();
