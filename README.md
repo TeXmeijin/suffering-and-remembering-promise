@@ -18,13 +18,15 @@ https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Pr
 ```sh
 yarn
 yarn ts <実行したいソースコードのパス>
+例：yarn ts src/01-consoleLogIntroduce/consoleFunction
 ```
 
 ## How to Use
 
 `src`以下のソースコードを、ナンバリングされている順に実行しながら理解を深めてください。
 
-- 実行結果を見て、どうしてそうなっているか？を説明できるようになってから次に進むこと
+- 最初はシンプルな動作をするコードから始めるようにしています。サクサク進めてください
+- 中盤以降、Promiseが出てきます。実行結果を見て、どうしてそうなっているか？を説明できるようになってから次に進むこと
 - ナンバリングされている各フォルダ内では、順番は前後しても構いません。ですが、よりシンプルなものから進めるのが良いと思われます
 
 ## Reference
