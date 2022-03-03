@@ -28,7 +28,7 @@ yarn ts <実行したいソースコードのパス>
 例：yarn ts src/01-consoleLogIntroduce/consoleFunction
 ```
 
-## How to Use
+## How to Learn
 
 `src`以下のソースコードを、ナンバリングされている順に実行しながら理解を深めてください。
 
