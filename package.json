@@ -1,0 +1,32 @@
+{
+  "name": "suffering-and-remembering-promise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ts": "ts-node",
+    "lint:fix": "prettier --write \"./**/*.ts\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.0"
+  },
+  "devDependencies": {
+    "lint-staged": "^12.3.4",
+    "prettier": "^2.5.1",
+    "simple-git-hooks": "^2.7.0",
+    "ts-node": "^10.6.0",
+    "typescript": "^4.6.2"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npx lint-staged"
+  },
+  "lint-staged": {
+    "*.ts": [
+      "yarn lint:fix"
+    ]
+  }
+}
