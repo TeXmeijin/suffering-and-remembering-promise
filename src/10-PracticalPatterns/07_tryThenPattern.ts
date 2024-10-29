@@ -3,9 +3,9 @@ import axios from 'axios';
 // この処理を実行すると、catch節のconsole.errorが実行されず、エラー全体が表示されることがわかる
 // Promiseに関するエラーはtry-catch節でキャッチされずさらに上のレイヤーに投げられてしまう
 // これはPromiseによるエラーはUnhandled Rejectionとして扱われるから。
-// awaitするかcatchすることで、エラーが例外扱いされ、try-catch節で扱える
+// awaitしつつcatch節と併用するか、.catch()を使うことでHandleできる。
 // 非同期処理は基本的に失敗する可能性があることを考えると、
-// 原則Promiseはawaitかcatchと併用することが必須だといえる
+// 原則Promiseはawait&try-catchか、.catchすることが必要といえます。
 
 (async () => {
   try {
